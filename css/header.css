@@ -1,0 +1,65 @@
+/* header */
+
+header {
+  width: 100%;
+}
+
+header p {
+  background: #1cd1b0;
+  padding: 2.5px 20px;
+}
+
+header h1 {
+  background: #00669f;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 12px 20px;
+}
+
+.a-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: unset;
+  background: #00669f;
+  text-decoration: none;
+}
+
+nav {
+  background: #001d2d;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  background: #001d2d;
+  padding-top: 10px;
+  text-decoration: none;
+  color: white;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+nav a:hover {
+  color: coral;
+}
+
+nav a::before {
+  content: "\f042";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: white;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 481px) {
+  nav {
+    padding-left: 67%;
+    padding-right: 5%;
+  }
+
+  .a-header {
+    padding-right: 50%;
+  }
+}

@@ -1,0 +1,295 @@
+/* Imports */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body * {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+/* General */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+button {
+  background-color: #00669f;
+  color: white;
+  padding: 10px 35px;
+  border-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/* header */
+
+header {
+  width: 100%;
+}
+
+header p {
+  background: #1cd1b0;
+  padding: 2.5px 20px;
+}
+
+header h1 {
+  background: #00669f;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding: 12px 20px;
+}
+
+.a-header {
+  display: flex;
+  justify-content: center;
+  padding: unset;
+  align-items: center;
+  background: #00669f;
+}
+
+nav {
+  background: #001d2d;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+nav a {
+  background: #001d2d;
+  padding-top: 10px;
+}
+
+/* main */
+
+/* index */
+main {
+  width: 100%;
+}
+
+section {
+  padding: 3%;
+}
+
+.img-avatar {
+  width: 40%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 102.6px;
+}
+
+.card {
+  border-radius: 5%;
+  height: 550px;
+  width: 352px;
+  background-color: #d3cfcfc2;
+  margin-top: 8px;
+  position: relative;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.h2-tarjeta {
+  padding-top: 20%;
+}
+
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.card-top-wonder {
+  background-image: url(../img/atlantida.jpg);
+}
+
+.card-top-superman {
+  background-image: url(../img/metropolis.jpg);
+}
+
+.card-top-batman {
+  background-image: url(../img/gotham.jpg);
+}
+
+.card-top-harley {
+  background-image: url(../img/explosion.webp);
+}
+
+.card-top {
+  background-size: cover;
+  border-top-left-radius: 8%;
+  border-top-right-radius: 8%;
+  height: 200px;
+}
+
+/* Pages with form */
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 90%;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 12px;
+  border-color: black;
+  border-style: solid;
+}
+
+textarea {
+  resize: none;
+  width: 100%;
+  border-color: black;
+  border-style: solid;
+}
+
+.section-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+.h2-contacto {
+  margin-left: 17px;
+}
+
+.buttons-form {
+  display: flex;
+  width: 100%;
+  gap: 15px;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+.buttons-form input {
+  width: 50%;
+  padding: 10px;
+  border-style: none;
+
+}
+
+.reset {
+  background-color: #888888;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.submit {
+  background-color: #1cd1b0;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.nombre,
+.mail,
+.pass {
+  height: 35px;
+}
+
+/* registro */
+
+select {
+  width: 102%;
+  height: 35px;
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+}
+
+.a-login {
+  color: cornflowerblue;
+}
+
+.p-registro {
+  display: flex;
+  width: 100%;
+  padding: 0;
+}
+
+/* login */
+.input-entrar {
+  width: 100%;
+  height: 35px;
+  border-style: none;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  background-color: #00669f;
+  color: white;
+}
+
+footer p {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  text-align: center;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 481px) {
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav {
+    padding-left: 67%;
+  }
+
+  .a-header {
+    padding-right: 50%;
+  }
+
+  .section-contacto {
+    width: 60%;
+  }
+
+  /* .p-registro{
+        display: inline-block;
+    } */
+
+    .p-registro {
+      display: inline-block;
+    }
+}
+
+@media screen and (min-width: 811px) {
+  nav {
+    padding-left: 80%;
+  }
+
+  .a-header {
+    padding-right: 70%;
+  }
+
+  .a-header img,
+  .a-header h1 {
+    margin-left: 10px;
+  }
+
+  .section-contacto {
+    width: 40%;
+  }
+}

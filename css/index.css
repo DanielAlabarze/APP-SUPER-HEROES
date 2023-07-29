@@ -1,0 +1,126 @@
+/* index */
+
+main {
+  width: 100%;
+}
+
+section {
+  padding: 3%;
+}
+
+.img-avatar {
+  width: 40%;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: white;
+  position: absolute;
+  margin-top: 120px;
+  margin-left: 102.6px;
+}
+
+.card {
+  border-radius: 5%;
+  height: 550px;
+  width: 352px;
+  background-color: #d3cfcfc2;
+  margin-top: 8px;
+  position: relative;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 350px;
+}
+
+.h2-tarjeta {
+  padding-top: 20%;
+}
+
+p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.card-top-wonder {
+  background-image: url(../img/atlantida.jpg);
+}
+
+.card-top-superman {
+  background-image: url(../img/metropolis.jpg);
+}
+
+.card-top-batman {
+  background-image: url(../img/gotham.jpg);
+}
+
+.card-top-harley {
+  background-image: url(../img/explosion.jpg);
+}
+
+.card-top {
+  background-size: cover;
+  border-top-left-radius: 8%;
+  border-top-right-radius: 8%;
+  height: 200px;
+}
+
+.a-ver-mas {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  padding: 15px 55px;
+  background-color: #00669f;
+}
+
+.a-ver-mas:hover {
+  font-size: 1.2rem;
+  background-color: black;
+}
+
+/* .contenedor-agregar{
+      position: relative;
+  } */
+.contenedor-agregar {
+  position: relative;
+}
+
+
+
+.agregar {
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 2.5rem;
+  background-color: #00669f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  margin-left: 85%;
+  margin-top: 50%;
+  z-index: 999;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.agregar:hover {
+  background-color: black;
+  opacity: unset;
+}
+
+@media screen and (min-width: 769px) {
+  .agregar {
+    margin-left: 92%;
+    margin-top: 35%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .agregar {
+    margin-left: 95%;
+    margin-top: 20%;
+  }
+}
